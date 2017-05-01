@@ -1,0 +1,128 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+html {
+	font-size: 62.5%; 
+	/**10 ÷ 16 × 100% = 62.5%    1rem = 10px   **/
+}  
+
+h1 {
+    padding: 20px;
+}
+
+.dicetab {
+	max-width: 420px;
+	min-height: 190px;
+	margin: auto !important;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.dicetab table {
+	border-collapse: initial !important;
+    border-spacing: 5px !important;
+    color: #666;
+    width: 100%;
+}
+
+.dicetab table th {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #333;
+}
+
+.dicetab table td {
+    border: 1px #e6e6e6 solid;
+    border-radius: 5px;
+    padding: 5px 0px;
+    text-align: center;
+    background-color: #fcfcfc;
+}
+
+.inline {
+  display: inline;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.dice{
+	max-width: 420px;
+	min-height: 190px;
+	margin: auto;
+}
+
+div h1{
+	text-align: center;
+}
+
+#rolldice {
+	float: left;
+    text-align: center;
+    font-size: 0.85rem;
+    line-height: 30px;
+    color: darkgray;
+}
+
+.dice ul li {
+  float: left;
+  display: inline;
+  list-style-type: none;
+}
+
+.dice ul li::before {
+	clear: both;
+	content: "";
+	display: block;
+	visibility: hidden;
+}
+.dice i {
+    display: block;
+    float: none;
+    background: url("file:///C:/Users/Asuna_moe/Desktop/HTML/克苏鲁首页/img/sheet.jpeg") no-repeat 0% 0%;
+    background-size: 1120px 160px;
+    width: 160px;
+    height: 160px;
+}
+.clear {
+  clear: both;
+}
+#times {
+	display: block;
+	float: none;
+	background-image: url(" ");
+	width: 90px;
+	height: 90px;
+}
+.result div span {
+    font-size: 2.5rem;
+    line-height: 70px;
+    background-color: #fcfcfc;
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    display: block;
+    float: right;
+    width: 56px;
+    width: 30%;
+    height: 70px;
+    margin: 2px;
+    text-align: center;
+    vertical-align: middle;
+}
+.result {
+	color: #a5a5a5;
+	min-height: 160px;
+}
+
+.btn{
+	font-size: 1.3rem !important;
+}
