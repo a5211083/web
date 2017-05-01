@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script/dice.js"></script>
+    <!-- <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+</head>
+<body>
+	<div class="container inline">
+		<div>
+			<h1>克苏鲁神话骰子</h1>
+		</div>
+		<div class="dice">
+			<div class="inline left col-xs-6">
+				<i style="background-position: 0px center;"></i>
+				<div>
+					<span class="dropdown inline clear">
+
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Pols
+							<span class="caret"></span>
+						</button>
+
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1" id="menu1">
+							<li><a tabindex="-1" href="#">4 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">6 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">8 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">10 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">12 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">20 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">24 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">30 Polyhedron</a></li>
+							<li><a tabindex="-1" href="#">100 Polyhedron</a></li>
+						</ul>
+					</span>
+
+					<span class="dropdown inline clear">
+						<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+							Roll
+							<span class="caret"></span>
+						</button>
+
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu2" id="menu2">
+							<li><a tabindex="-1" href="#">1 times</a></li>
+							<li><a tabindex="-1" href="#">3 times</a></li>
+							<li><a tabindex="-1" href="#">5 times</a></li>
+							<li><a tabindex="-1" href="#">6 times</a></li>
+						</ul>
+					</span>
+				</div>
+			</div>
+
+			<div class="inline right col-xs-6">
+				<div class="result clear">
+					<div>
+						<span>?</span>
+						<span>?</span>
+						<span>?</span>
+					</div>
+					<div>
+						<span>?</span>
+						<span>?</span>
+						<span>?</span>
+					</div>
+				</div>
+
+			<button type="button" class="btn btn-default right" id="Start">
+				Start
+			</button>
+			
+			<div id="rolldice"> <span>Pols:0</span> <span>; Roll:0</span> </div>
+			</div>
+		</div>
+	</div>
+	<div class="dicetab ">
+		<table>
+			<tbody>
+				<tr><th colspan="4">
+					掷骰结果
+				</th>
+				</tr><tr>
+					<td>STR</td>
+					<td>?</td>
+					<td>CON</td>
+					<td>?</td>
+				</tr>
+				<tr>
+					<td>POW</td>
+					<td>?</td>
+					<td>DEX</td>
+					<td>?</td>
+				</tr>
+				<tr>
+					<td>APP</td>
+					<td>?</td>
+					<td>SIZ</td>
+					<td>?</td>
+				</tr>
+				<tr>
+					<td>INT</td>
+					<td>?</td>
+					<td>EDU</td>
+					<td>?</td>
+				</tr>
+				<tr>
+					<td colspan="2">MOV</td>
+					<td colspan="2">?</td>
+				</tr>
+				<tr>
+					<td>MaxHP</td>
+					<td>MaxMP</td>
+					<td>SAN</td>
+					<td>LUCK</td>
+				</tr>
+				<tr>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+					<td>?</td>
+				</tr>
+			</tbody>
+		</table>
+		<button type="button" class="btn btn-default" id="OneKeyPress">
+			OneKeyPress
+		</button>
+	</div>
+	
+    <script src="http://v2.bootcss.com/assets/js/bootstrap-dropdown.js"></script>
+    <script src="http://v2.bootcss.com/assets/js/bootstrap-button.js"></script>
+	
+
+</body><style type="text/css"></style></html>
