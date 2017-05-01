@@ -88,7 +88,7 @@ div h1{
 .dice i {
     display: block;
     float: none;
-    background: url("https://raw.githubusercontent.com/a5211083/web/master/sheet.jpeg") no-repeat 0% 0%;
+    background: url("../img/sheet.jpeg") no-repeat 0% 0%;
     background-size: 1120px 160px;
     width: 160px;
     height: 160px;
